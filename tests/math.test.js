@@ -1,7 +1,7 @@
 const { suma, resta, multiplicacion } = require("../src/math");
 
 test("suma correctamente", () => {
-  expect(suma(2, 3)).toBe(6); // ERROR intencional
+  expect(suma(2, 3)).toBe(5); // ERROR intencional
 });
 
 test("resta correctamente", () => {
